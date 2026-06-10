@@ -12,8 +12,9 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 
-[![Home Page](screenshots/mira1.png)]
-[![Match](screenshots/mira2.png)]
+[Home Page](screenshots/mira1.png)
+[Match](screenshots/mira2.png)
+
 **Upload any property document → Ask questions in plain English → Get grounded AI answers**
 
 [🚀 Live Demo](https://urlofproject.com) 
@@ -636,8 +637,8 @@ Please ensure your code follows the existing style and that all Python files pas
 ## 👨‍💻 Author
 
 **Apoorv**
-- GitHub: [@yourusername](https://github.com/Apoorv0207)
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/apoorv-gtm/)
+- GitHub: [@Apoorv0207](https://github.com/Apoorv0207)
+- LinkedIn: [Apoorv Gautam](https://linkedin.com/in/apoorv-gtm/)
 - Email: apoorvgtm@gmail.com
 
 ---
