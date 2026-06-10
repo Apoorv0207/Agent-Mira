@@ -12,8 +12,8 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 
-[Home Page](screenshots/mira1.png)
-[Match](screenshots/mira2.png)
+![Home Page](screenshots/mira1.png)
+![Match](screenshots/mira2.png)
 
 **Upload any property document → Ask questions in plain English → Get grounded AI answers**
 
