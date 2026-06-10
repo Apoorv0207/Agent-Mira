@@ -6,6 +6,7 @@ import {
   Sparkles, Calculator, BookOpen, MessageSquare,
 } from 'lucide-react'
 
+axios.defaults.baseURL = 'https://agent-mira-x7dh.onrender.com';
 // ── helpers ──────────────────────────────────────────────────────────────────
 const uid = () => Math.random().toString(36).slice(2, 9)
 
