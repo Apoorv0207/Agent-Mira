@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body, #root { height: 100%; margin: 0; padding: 0; }
+  body { @apply bg-estate-warm text-estate-dark antialiased; font-family: 'Inter', sans-serif; }
+  ::-webkit-scrollbar { width: 5px; }
+  ::-webkit-scrollbar-track { @apply bg-transparent; }
+  ::-webkit-scrollbar-thumb { @apply bg-estate-stone/30 rounded-full; }
+  ::-webkit-scrollbar-thumb:hover { @apply bg-estate-stone/60; }
+}
+
+@layer components {
+  .bubble-user {
+    @apply bg-mira-600 text-white rounded-2xl rounded-br-sm px-4 py-3 shadow-sm max-w-[76%];
+  }
+  .bubble-ai {
+    @apply bg-white border border-slate-200 text-slate-800 rounded-2xl rounded-bl-sm px-4 py-3 shadow-sm max-w-[76%];
+  }
+  .tab-btn {
+    @apply px-4 py-2 text-sm font-medium rounded-lg transition-colors duration-150;
+  }
+  .tab-active {
+    @apply bg-mira-600 text-white shadow-sm;
+  }
+  .tab-inactive {
+    @apply text-slate-500 hover:text-slate-700 hover:bg-slate-100;
+  }
+  .input-base {
+    @apply w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-sm
+           text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2
+           focus:ring-mira-500 focus:border-transparent transition-all duration-150;
+  }
+  .btn-primary {
+    @apply flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-mira-600
+           hover:bg-mira-500 active:bg-mira-700 text-white text-sm font-medium
+           transition-colors duration-150 disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+  .btn-ghost {
+    @apply flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-slate-500
+           hover:bg-slate-100 hover:text-slate-700 transition-colors duration-150;
+  }
+  .card {
+    @apply bg-white rounded-2xl border border-slate-200 shadow-sm;
+  }
+  .tool-badge {
+    @apply inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5
+           rounded-full bg-amber-100 text-amber-700 border border-amber-200;
+  }
+  .source-badge {
+    @apply inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full
+           bg-slate-100 text-slate-500 border border-slate-200;
+  }
+}
